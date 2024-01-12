@@ -192,19 +192,62 @@ h2#quote-thor {
 
 
 
-
-
-
-
-
 /* End of quote section, begin CTA section below! */
 
 
 
-.ctaSection {
+.cta-container {
     background-color: white;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta {
+    background-color: #3882f6;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 150px;
 
 }
+
+.cta-text-group {
+    display: flex;
+    flex-direction: column;
+}
+
+h3#cta-text {
+    color: white;
+    font-size: 24px;
+}
+
+p#cta-subtext {
+    color: white;
+    opacity: .8;
+}
+
+button#cta-button {
+    background-color: #3882f6;
+    border: white solid 2px;
+    font-size: larger;
+    color: white;
+    padding: 8px 36px;
+    border-radius: 12px;
+    flex-wrap: wrap;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* End of CTA section, begin the footer section below! */
+
 
 .footer {
     background-color: #1F2937;
@@ -212,5 +255,15 @@ h2#quote-thor {
     display: flex; 
     justify-content: center;
     align-items: center;
+    height: 100px;
 }
 
+
+p#copyright {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: .7;
+    font-size: larger;
+}
